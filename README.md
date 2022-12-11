@@ -13,6 +13,7 @@ Slack bot which interacts with ChatGPT.
 * Pay attention to [this code](https://stackoverflow.com/a/51027874/15223881), its very important due to Slacks 3 second limit on response time.
 
 * Once everything is installed and configured, the order of initialization is:
-    1. Start NGROK, then update your Slack app's Slack Endpoints on [api.slack.com]()
-    1. run the bot.py file - I use [VS Code](https://code.visualstudio.com/) with the Python and Code Runner Extensions.
-    3. Chat the bot in Slack. 
+    1. Start NGROK
+    2. run the bot.py file - I use [VS Code](https://code.visualstudio.com/) with the Python and Code Runner Extensions.
+    3. update your Slack app's Slack Endpoints with the NGROK base URL on [api.slack.com](https://app.slack.com/)
+    4. Chat the bot in Slack. 

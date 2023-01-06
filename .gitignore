@@ -1,6 +1,7 @@
 # Local test files
 taranjeet_Code.py
 cGPT_Code.py
+requirements.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
